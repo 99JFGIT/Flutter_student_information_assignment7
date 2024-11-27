@@ -28,9 +28,9 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        iconTheme: IconThemeData(color: Colors.green),
-        backgroundColor: Colors.green.shade100,
-        title: const Text("View All Students", style: TextStyle(color: Colors.green)),
+        iconTheme: IconThemeData(color: Colors.deepPurpleAccent),
+        backgroundColor: Colors. pink.shade100,
+        title: const Text("View All Students", style: TextStyle(color: Colors.deepPurpleAccent)),
       ),
       body: StreamBuilder<List<Note>>(
         stream: noteService.getNotes(),
@@ -54,7 +54,7 @@ class _HomePageState extends State<HomePage> {
                 child: ListTile(
                   contentPadding: const EdgeInsets.all(10),
                   shape: RoundedRectangleBorder(
-                    side: const BorderSide(color: Colors.green, width: 1),
+                    side: const BorderSide(color: Colors.deepPurpleAccent, width: 1),
                     borderRadius: BorderRadius.circular(5),
                   ),
                   onTap: () {
@@ -86,7 +86,7 @@ class _HomePageState extends State<HomePage> {
                       Expanded(child: Text(note.phone!)),
                       // Call button aligned to the right of the phone number
                       IconButton(
-                        icon: const Icon(Icons.call, color: Colors.green, size: 30),
+                        icon: const Icon(Icons.call, color: Colors.deepPurpleAccent, size: 30),
                         onPressed: () {
                           //_makeCall(note.phone!); // Launch phone dialer
                         },
@@ -95,7 +95,7 @@ class _HomePageState extends State<HomePage> {
                   ),
                   leading: const Icon(
                     Icons.onetwothree,
-                    color: Colors.greenAccent,
+                    color: Colors.deepPurpleAccent,
                     size: 40,
                   ),
                 ),
@@ -106,10 +106,10 @@ class _HomePageState extends State<HomePage> {
         },
       ),
       floatingActionButton: FloatingActionButton(
-        backgroundColor: Colors.blue,
+        backgroundColor: Colors.pink.shade100,
         child: const Icon(
           Icons.add,
-          color: Colors.white,
+          color: Colors.deepPurpleAccent,
         ),
         onPressed: () {
           Get.to(const AddNotes());

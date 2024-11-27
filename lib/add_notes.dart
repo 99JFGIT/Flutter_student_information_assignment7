@@ -50,11 +50,11 @@ class _AddNotesState extends State<AddNotes> {
     return Scaffold(
       appBar: AppBar(
         iconTheme: IconThemeData(
-            color: Colors.green
+            color: Colors.deepPurpleAccent
         ),
-        backgroundColor: Colors.green.shade100,
+        backgroundColor: Colors.pink.shade100,
         title: Text("Add Student Information", style: TextStyle(
-            color: Colors.green
+            color: Colors.deepPurpleAccent
         ),),
 
 
@@ -73,13 +73,13 @@ class _AddNotesState extends State<AddNotes> {
                   labelText: "Student Name",
                   hintText: "Your Name",
                   prefixIcon: const Icon(
-                    Icons.person, color: Colors.greenAccent,),
+                    Icons.person, color: Colors.deepPurpleAccent,),
                   border: OutlineInputBorder(
                     borderRadius: BorderRadius.circular(10),
                   ),
                   enabledBorder: OutlineInputBorder(
                     borderRadius: BorderRadius.circular(10),
-                    borderSide: BorderSide(color: Colors.green),
+                    borderSide: BorderSide(color: Colors.deepPurpleAccent),
                   ),
                 ),
 
@@ -101,13 +101,13 @@ class _AddNotesState extends State<AddNotes> {
                   labelText: "Student Id",
                   hintText: "Your Id",
                   prefixIcon: const Icon(
-                    Icons.onetwothree, color: Colors.greenAccent,),
+                    Icons.onetwothree, color: Colors.deepPurpleAccent,),
                   border: OutlineInputBorder(
                     borderRadius: BorderRadius.circular(10),
                   ),
                   enabledBorder: OutlineInputBorder(
                     borderRadius: BorderRadius.circular(10),
-                    borderSide: BorderSide(color: Colors.green),
+                    borderSide: BorderSide(color: Colors.deepPurpleAccent),
                   ),
                 ),
 
@@ -129,13 +129,13 @@ class _AddNotesState extends State<AddNotes> {
                   labelText: "Phone",
                   hintText: "Your Phone No",
                   prefixIcon: const Icon(
-                    Icons.phone, color: Colors.greenAccent,),
+                    Icons.phone, color: Colors.deepPurpleAccent,),
                   border: OutlineInputBorder(
                     borderRadius: BorderRadius.circular(10),
                   ),
                   enabledBorder: OutlineInputBorder(
                     borderRadius: BorderRadius.circular(10),
-                    borderSide: BorderSide(color: Colors.green),
+                    borderSide: BorderSide(color: Colors.deepPurpleAccent),
                   ),
                 ),
 
@@ -157,13 +157,13 @@ class _AddNotesState extends State<AddNotes> {
                   labelText: "Email",
                   hintText: "Your Email",
                   prefixIcon: const Icon(
-                    Icons.email, color: Colors.greenAccent,),
+                    Icons.email, color: Colors.deepPurpleAccent,),
                   border: OutlineInputBorder(
                     borderRadius: BorderRadius.circular(10),
                   ),
                   enabledBorder: OutlineInputBorder(
                     borderRadius: BorderRadius.circular(10),
-                    borderSide: BorderSide(color: Colors.green),
+                    borderSide: BorderSide(color: Colors.deepPurpleAccent),
                   ),
                 ),
 
@@ -185,13 +185,13 @@ class _AddNotesState extends State<AddNotes> {
                   labelText: "Location",
                   hintText: "Your Location",
                   prefixIcon: const Icon(
-                    Icons.location_on, color: Colors.greenAccent,),
+                    Icons.location_on, color: Colors.deepPurpleAccent,),
                   border: OutlineInputBorder(
                     borderRadius: BorderRadius.circular(10),
                   ),
                   enabledBorder: OutlineInputBorder(
                     borderRadius: BorderRadius.circular(10),
-                    borderSide: BorderSide(color: Colors.green),
+                    borderSide: BorderSide(color: Colors.deepPurpleAccent),
                   ),
                 ),
 
@@ -210,7 +210,7 @@ class _AddNotesState extends State<AddNotes> {
                 style: ElevatedButton.styleFrom(
 
                   minimumSize: const Size.fromHeight(50),
-                  backgroundColor: Colors.green.shade100,
+                  backgroundColor: Colors.pink.shade100,
                   shape: RoundedRectangleBorder(
                     borderRadius: BorderRadius.circular(20),
                   ),
@@ -226,7 +226,7 @@ class _AddNotesState extends State<AddNotes> {
                 },
                 child: Text(
                   "Save",
-                  style: const TextStyle(color: Colors.green,
+                  style: const TextStyle(color: Colors.deepPurpleAccent,
                       fontWeight: FontWeight.bold),
 
                 ),

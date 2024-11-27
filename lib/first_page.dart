@@ -17,10 +17,10 @@ class _FirstPageState extends State<FirstPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Colors.green,
+        backgroundColor: Colors.pink.shade100,
         title: Text(
           'IIUC STUDENT INFORMATION MEDIA',
-          style: TextStyle(color: Colors.greenAccent.shade200
+          style: TextStyle(color: Colors.deepPurpleAccent
             ,fontSize: 18,fontWeight: FontWeight.bold,
           ),
 
@@ -44,7 +44,7 @@ class _FirstPageState extends State<FirstPage> {
                     },
                     child: Text("Add Student",style: TextStyle(
                         fontSize: 16,fontWeight: FontWeight.normal,
-                        color: Colors.green
+                        color: Colors.deepPurpleAccent
                     ),),)),
             ),
 
@@ -62,7 +62,7 @@ class _FirstPageState extends State<FirstPage> {
                     },
                     child: Text("View All Students",style: TextStyle(
                         fontSize: 16,fontWeight: FontWeight.normal,
-                        color: Colors.green
+                        color: Colors.deepPurpleAccent
                     ),),)),
             ),
 

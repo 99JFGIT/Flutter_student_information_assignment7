@@ -64,11 +64,11 @@ class _UpdateNotesState extends State<UpdateNotes> {
     return Scaffold(
       appBar: AppBar(
         iconTheme: IconThemeData(
-            color: Colors.green
+            color: Colors.deepPurpleAccent
         ),
-        backgroundColor: Colors.green.shade100,
+        backgroundColor: Colors.pink.shade100,
         title: Text("Update Student Info",style: TextStyle(
-            color: Colors.green
+            color: Colors.deepPurpleAccent
         ),),
 
 
@@ -87,13 +87,13 @@ class _UpdateNotesState extends State<UpdateNotes> {
                 decoration: InputDecoration(
                   labelText: "Student Name",
                   hintText: "Your Name",
-                  prefixIcon: const Icon(Icons.person,color: Colors.greenAccent,),
+                  prefixIcon: const Icon(Icons.person,color: Colors.deepPurpleAccent,),
                   border: OutlineInputBorder(
                     borderRadius: BorderRadius.circular(10),
                   ),
                   enabledBorder: OutlineInputBorder(
                     borderRadius: BorderRadius.circular(10),
-                    borderSide: BorderSide(color: Colors.green),
+                    borderSide: BorderSide(color: Colors.deepPurpleAccent),
                   ),
                 ),
 
@@ -114,13 +114,13 @@ class _UpdateNotesState extends State<UpdateNotes> {
                 decoration: InputDecoration(
                   labelText: "Student Id",
                   hintText: "Your Id",
-                  prefixIcon: const Icon(Icons.onetwothree,color: Colors.greenAccent,),
+                  prefixIcon: const Icon(Icons.onetwothree,color: Colors.deepPurpleAccent,),
                   border: OutlineInputBorder(
                     borderRadius: BorderRadius.circular(10),
                   ),
                   enabledBorder: OutlineInputBorder(
                     borderRadius: BorderRadius.circular(10),
-                    borderSide: BorderSide(color: Colors.green),
+                    borderSide: BorderSide(color: Colors.deepPurpleAccent),
                   ),
                 ),
 
@@ -140,13 +140,13 @@ class _UpdateNotesState extends State<UpdateNotes> {
                 decoration: InputDecoration(
                   labelText: "Phone",
                   hintText: "Your Phone No",
-                  prefixIcon: const Icon(Icons.phone,color: Colors.greenAccent,),
+                  prefixIcon: const Icon(Icons.phone,color: Colors.deepPurpleAccent,),
                   border: OutlineInputBorder(
                     borderRadius: BorderRadius.circular(10),
                   ),
                   enabledBorder: OutlineInputBorder(
                     borderRadius: BorderRadius.circular(10),
-                    borderSide: BorderSide(color: Colors.green),
+                    borderSide: BorderSide(color: Colors.deepPurpleAccent),
                   ),
                 ),
 
@@ -167,13 +167,13 @@ class _UpdateNotesState extends State<UpdateNotes> {
                 decoration: InputDecoration(
                   labelText: "Email",
                   hintText: "Your email",
-                  prefixIcon: const Icon(Icons.email,color: Colors.greenAccent,),
+                  prefixIcon: const Icon(Icons.email,color: Colors.deepPurpleAccent,),
                   border: OutlineInputBorder(
                     borderRadius: BorderRadius.circular(10),
                   ),
                   enabledBorder: OutlineInputBorder(
                     borderRadius: BorderRadius.circular(10),
-                    borderSide: BorderSide(color: Colors.green),
+                    borderSide: BorderSide(color: Colors.deepPurpleAccent),
                   ),
                 ),
 
@@ -194,13 +194,13 @@ class _UpdateNotesState extends State<UpdateNotes> {
                 decoration: InputDecoration(
                   labelText: "Location",
                   hintText: "Your Location",
-                  prefixIcon: const Icon(Icons.location_on,color: Colors.greenAccent,),
+                  prefixIcon: const Icon(Icons.location_on,color: Colors.deepPurpleAccent,),
                   border: OutlineInputBorder(
                     borderRadius: BorderRadius.circular(10),
                   ),
                   enabledBorder: OutlineInputBorder(
                     borderRadius: BorderRadius.circular(10),
-                    borderSide: BorderSide(color: Colors.green),
+                    borderSide: BorderSide(color: Colors.deepPurpleAccent),
                   ),
                 ),
 
@@ -219,7 +219,7 @@ class _UpdateNotesState extends State<UpdateNotes> {
                 style: ElevatedButton.styleFrom(
 
                   minimumSize: const Size.fromHeight(50),
-                  backgroundColor: Colors.green,
+                  backgroundColor: Colors.pink.shade100,
                   shape: RoundedRectangleBorder(
                     borderRadius: BorderRadius.circular(20),
                   ),
@@ -241,7 +241,7 @@ class _UpdateNotesState extends State<UpdateNotes> {
                 },
                 child:  Text(
                   "Update",
-                  style: const TextStyle(color: Colors.white,
+                  style: const TextStyle(color: Colors.deepPurpleAccent,
                       fontWeight: FontWeight.bold),
 
                 ),
